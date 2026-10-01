@@ -5,23 +5,15 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Sinister',
   description: 'Interactive character lore and 3D adventure in the Village of Sahur',
-  generator: 'v0.app',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
+        url: '/sinister-icon.png',
+        type: 'image/png',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/sinister-icon.png',
+    shortcut: '/sinister-icon.png',
   },
 }
 
